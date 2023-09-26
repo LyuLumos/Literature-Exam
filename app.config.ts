@@ -19,12 +19,12 @@ export default defineAppConfig({
       exclude: []
     },
     main: {
-      padded: true,
+      padded: false,
       fluid: true
     },
     header: {
-      logo: true,
-      showLinkIcon: true,
+      logo: false,
+      showLinkIcon: false,
       exclude: [],
       fluid: true
     }
